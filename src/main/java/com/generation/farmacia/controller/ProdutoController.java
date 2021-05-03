@@ -8,6 +8,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -34,5 +36,13 @@ public class ProdutoController {
 				.orElse(ResponseEntity.notFound().build());
 	}
 	
+	@GetMapping("/nome/{nome}")
+	public ResponseEntity<List<Produto>> findByNomeProduto(@PathVariable(value = "nome") String nome){
+		return new ResponseEntity<>(repository.findAllByNomeContainingIgnoreCase(nome), HttpStatus.OK);
+	}
 	
+	@PostMapping
+	public ResponseEntity<Produto> postProduto(@RequestBody Produto produto){
+		return new ResponseEntity<>(repository.save(produto), HttpStatus.CREATED);
+	}
  }
