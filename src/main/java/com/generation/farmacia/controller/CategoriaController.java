@@ -8,6 +8,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -37,5 +40,15 @@ public class CategoriaController {
 	@GetMapping("/nome/{nome}")
 	public ResponseEntity<List<Categoria>> findByDescricaoCategoria(@PathVariable(value = "nome") String nome){
 		return new ResponseEntity<>(repository.findAllByNomeContainingIgnoreCase(nome), HttpStatus.OK);
+	}
+	
+	@PostMapping
+	public ResponseEntity<Categoria> postCategoria(@RequestBody Categoria categoria){
+		return new ResponseEntity<>(repository.save(categoria), HttpStatus.CREATED);
+	}
+	
+	@PutMapping
+	public ResponseEntity<Categoria> putCategoria(@RequestBody Categoria categoria){
+		return new ResponseEntity<>(repository.save(categoria), HttpStatus.OK);
 	}
 }
