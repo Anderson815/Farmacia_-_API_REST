@@ -29,7 +29,6 @@ public class Produto {
 	@NotNull
 	private int quantidade;
 	
-	@NotNull
 	@ManyToOne
 	@JsonIgnoreProperties("produtos")
 	private Categoria categoria;
@@ -68,12 +67,12 @@ public class Produto {
 		this.quantidade = quantidade;
 	}
 
-//	public Categoria getCategoria() {
-//		return categoria;
-//	}
-//
-//	public void setCategoria(Categoria categoria) {
-//		this.categoria = categoria;
-//	}
+	public Categoria getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(Categoria categoria) {
+		this.categoria = categoria;
+	}
 	
 }
