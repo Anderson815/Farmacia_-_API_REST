@@ -22,12 +22,23 @@
 
 <h2 id="Funcionalidades">⚙️ Funcionalidades</h2>
 
-  - [x] Postar
-  - [x] Consultar todas as postagens
-  - [x] Consultar postagens com base no título
-  - [x] Consultar postagem específica através de um ID
-  - [x] Alterar postagem
-  - [x] Deletar postagem
+<h3>Remédio:</h3>
+
+  - [x] Cadastrar remédio
+  - [x] Consultar todos os remédios
+  - [x] Consultar remédios por nome parecido
+  - [x] Consultar remédio através de um ID
+  - [x] Alterar cadastro de remédio
+  - [x] Deletar cadastro de remédio
+
+<h3>Categoria:</h3>
+
+  - [x] Cadastrar categoria
+  - [x] Consultar todas as categorias
+  - [x] Consultar categorias por nome parecido
+  - [x] Consultar categoria através de um ID
+  - [x] Alterar cadastro de catgoria
+  - [x] Deletar cadastro de categoria
 
 <h2 id="Executar">🚀 Como executar o projeto</h2>
 <!--
