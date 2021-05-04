@@ -1,6 +1,6 @@
 <img src="Midias_Readme/Banner.png" alt="Banner do projeto">
 
-<h1 align="center">Blog Pessoal - API REST</h1>
+<h1 align="center">Farmácia - API REST</h1>
 <p align="center">Em desenvolvimento 🛠 </p>
 <p align="center">
   <a href="#Sobre">Sobre</a> •
@@ -13,11 +13,11 @@
 
 <h2 id="Sobre">:computer: Sobre o projeto</h2>
 <p>
-  Blog Pessoal - API REST: Este é um projto back-end voltado para um blog pessoal, com ele você pode desabafar problemas, registrar uma bela conquista e gurardar todos os momentos que você quiser da sua vida em formato de texto. Observação: as postagens não é compartilhada com ninguém apenas fica com você mesmo.
+  Farmácia - API REST: Este é um projeto back-end voltado para uma farmácia, com ele você pode gerenciar os remédios e as categorias desses remédios.
 </p>
 
 <p>
-  Esse projeto foi desenvolvido principalmente para que o Autor pudesse praticar as tecnologias de backend e assim explorar cada vez mais esse mundo da programação.
+  Esse projeto foi um exercício de revisão da <a href="https://brazil.generation.org/">Generation Brasil</a> para que os alunos pudessem reforçar o conhecimentos das tecnologias de back-end.
 </p>
 
 <h2 id="Funcionalidades">⚙️ Funcionalidades</h2>
