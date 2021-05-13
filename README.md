@@ -17,7 +17,7 @@
 </p>
 
 <p>
-  Esse projeto foi um exercício de revisão da <a href="https://brazil.generation.org/">Generation Brasil</a> para que os alunos pudessem reforçar os conhecimentos das tecnologias de back-end ensinados no módulo 2 do curso.
+  Esse projeto foi um exercício de revisão da <a href="https://brazil.generation.org/">Generation Brasil</a> para que os alunos pudessem reforçar os conhecimentos das tecnologias de back-end, ensinados no módulo 2 do curso.
 </p>
 
 <h2 id="Funcionalidades">⚙️ Funcionalidades</h2>
